@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color:  hsl(210, 46%, 95%);
+}
+h6{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.card-area{
+    padding: 15px;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.name-area{
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    
+}
+.name-area img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    border: 2px solid gray;
+}
+.name{
+    color: #fff;
+
+}
+.status{
+    color: hsl(0, 0%, 81%);
+}
+.p1{
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.p2{
+    color: hsl(0, 0%, 81%);
+}
+.color-jonathan{
+    background-color: hsl(217, 19%, 35%);
+}
+.color-kira{
+    background-color: hsl(0, 0%, 100%);
+}
+.color-harmon {
+    background-color: hsl(219, 29%, 14%);
+}
+.color-kira .p1{
+    color: hsl(219, 29%, 14%);
+}
+.color-kira .name{
+    color: hsl(219, 29%, 14%);
+}
