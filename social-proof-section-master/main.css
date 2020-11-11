@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg), url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right , top left;
+}
+.star{
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.star img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.star p{
+    
+    margin: 0 30px;
+    color: hsl(300, 43%, 22%)!important;
+    font-weight: 700;
+    font-size: 11px;
+
+}
+.m-star2 {
+    margin-left: 1rem;
+}.colorr{
+    color: gray;
+    font-size: 14px;
+}
+h1 {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+/* Card Area*/
+.card-area{
+    padding: 20px;
+    background-color:hsl(300, 43%, 22%);
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.card-area img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.col-12 {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 15px;
+}
+h3,h4{
+    font-size: 11px;
+}
+h3{
+    color: #fff;
+    margin-top: 4px;
+}
+h4 {
+    color: hsl(333, 80%, 67%);
+}
+.irena{
+    margin-top: 30px;
+}
+.anne{
+    margin-top: 60px;
+}
+.colton {
+    margin-top: 0px;
+}
+@media(max-width:768px){
+    .anne{
+        margin-top: 30px;
+    }
+    .centeer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .centeer .star p{
+        text-align: center;
+    }
+
+}
